@@ -1,9 +1,27 @@
 .mainContent {
   width: 54vw;
-  background-color: #333333b2;
+  /* background-color: #353E4B; */
+  /* background-color: #333333b2; */
   padding: 8px 40px;
+  border: 2px solid rgb(0, 255, 8);
   border-radius: 10px;
-  color: white;
+  /* color: white; */
+  background-image: 
+  repeating-linear-gradient(
+      0deg, 
+      rgba(59, 59, 59, 0.843) 1px, 
+      rgba(255, 255, 255, 0.1) 1px, 
+      transparent 1px, 
+      transparent 1px
+  ), 
+  linear-gradient(
+      rgba(38, 38, 38, 0.947), 
+      rgba(64, 64, 64, 0.82)
+  ), 
+  url('../assets/IMG/steel-texture.png');
+background-size: cover; /* Ajusta a imagem para cobrir todo o background */
+background-repeat: no-repeat; /* Evita a repetição da imagem */
+background-position: center; /* Centraliza a imagem */
 }
 
 .smallImage {
@@ -32,12 +50,17 @@
 }
 
 .link {
-  font-size: 44px;
+  font-size: 1.5em;
   display: block;
   margin: 10px 0;
   padding: 10px 0;
   text-decoration: none;
   color: green;
+}
+
+.link:hover {
+  text-decoration:solid;
+  color: rgba(92, 251, 92, 0.584);
 }
 
 .divider {
