@@ -1,68 +1,137 @@
+/* Estilos principais */
 .sidebar {
-  background-color: black;
-  width: 30%;
+  background-color: #12110F;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .topImage {
-  padding: 0px 30px 30px 30px;
-  width: 750px;
-  height: 220px;
+  padding-bottom: 30px;
+  width: 22vw;
+  height: 14vh;
   object-fit: cover;
 }
 
 .centerImage {
-  padding: 12px;
-  width: 120px;
-  height: 120px;
-  margin-top: 10px;
+  width: 8vw;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  margin-top: 1vh;
   border: 1px solid green;
   border-radius: 15%;
+  object-fit: contain;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.177);
 }
 
 .title {
+  font-size: 1.5em;
   color: white;
   text-align: center;
   margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.177);
 }
 
-
 .text1 {
-  font-size: 28px;
+  font-size: 1.3em;
   color: grey;
   text-align: center;
   margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.177);
 }
 
-.buttonGit {
-  padding: 30px 200px;
-  border: 2px solid green;
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0.8vh;
   border-radius: 15px;
   background: none;
   color: white;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.177);
+}
+
+.buttonGit {
+  margin-top: 15px;
+  border: 2px solid green;
 }
 
 .buttonEdin {
   margin-top: 15px;
-  padding: 30px 200px;
   border: 2px solid rgb(0, 28, 128);
-  border-radius: 15px;
-  background: none;
-  color: white;
-  cursor: pointer;
 }
 
-.linkGit{
-  font-size: 29px;
+.link {
+  font-size: 1em;
   text-decoration: none;
-  color: green;
 }
-.linkedin{
-  font-size: 29px;
-  text-decoration: none;
+
+.linkGit {
+  color: rgb(30, 170, 30);
+}
+
+.linkedin {
   color: rgb(76, 141, 222);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 50vw;
+  }
+
+  .topImage {
+    width: 40vw;
+    height: auto;
+  }
+
+  .centerImage {
+    width: 16vw;
+  }
+
+  .title, .text1 {
+    font-size: 1.2em;
+  }
+
+  .link {
+    font-size: 0.9em;
+  }
+
+  .button {
+    padding: 1vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 75vw;
+  }
+
+  .topImage {
+    width: 60vw;
+    height: auto;
+  }
+
+  .centerImage {
+    width: 24vw;
+  }
+
+  .title, .text1 {
+    font-size: 1em;
+  }
+
+  .link {
+    font-size: 0.8em;
+  }
+
+  .button {
+    padding: 1.2vh;
+  }
 }

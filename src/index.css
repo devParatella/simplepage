@@ -1,7 +1,23 @@
 .app {
-  padding: 40px;
+  padding: 6vh 12vw 0 ;
   display: flex;
   height: 100vh;
   background-color: black;
   color: white;
+}
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  .app {
+    padding: 4vh 2vh 0px 40px; /* Ajuste o padding para telas menores */
+  }
+}
+
+/* Estilos para telas menores que 480px */
+@media (max-width: 480px) {
+  .app {
+    flex-direction: column; /* Ajusta a direção do flex para coluna em telas muito pequenas */
+    padding: 4vh 2vh; /* Ajuste o padding novamente para telas muito pequenas */
+    height: auto; /* Ajuste a altura para auto em telas muito pequenas */
+  }
 }
