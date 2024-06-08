@@ -1,0 +1,56 @@
+.mainContent {
+  width: 56vw;
+  background-color: #333;
+  padding: 60px 60px;
+  border-radius: 20px;
+  color: white;
+}
+
+.smallImage {
+  padding: 8px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  border: 1px solid green;
+  border-radius: 15%;
+}
+
+.mainTitle {
+  margin-top: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  margin: 20px 0;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+}
+
+.link {
+  font-size: 44px;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 0;
+  text-decoration: none;
+  color: green;
+}
+
+.divider {
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid white;
+}
+
+.bottomTitle {
+  margin-top: 10px;
+}
+
+.bottomImage {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,68 @@
+.sidebar {
+  background-color: black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.topImage {
+  padding: 0px 30px 30px 30px;
+  width: 750px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.centerImage {
+  padding: 12px;
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+  border: 1px solid green;
+  border-radius: 15%;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.text1 {
+  font-size: 28px;
+  color: grey;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.buttonGit {
+  padding: 30px 200px;
+  border: 2px solid green;
+  border-radius: 15px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonEdin {
+  margin-top: 15px;
+  padding: 30px 200px;
+  border: 2px solid rgb(0, 28, 128);
+  border-radius: 15px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.linkGit{
+  font-size: 29px;
+  text-decoration: none;
+  color: green;
+}
+.linkedin{
+  font-size: 29px;
+  text-decoration: none;
+  color: rgb(76, 141, 222);
+}
