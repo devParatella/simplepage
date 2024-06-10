@@ -5,8 +5,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 0px;
   gap: 3vh;
+  position: fixed;
+  top: 6vh;
+  left: 8vw;
+  height: 95vh;
+  overflow-y: auto;
 }
 
 .topImage {
@@ -73,7 +78,6 @@
 .buttonGit {
   margin-top: 15px;
   border: 2px solid green;
-  
 }
 
 .buttonGit:hover {

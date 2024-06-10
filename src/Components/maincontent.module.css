@@ -1,27 +1,21 @@
 .mainContent {
-  width: 54vw;
-  /* background-color: #353E4B; */
-  /* background-color: #333333b2; */
-  padding: 8px 40px;
+  margin-left: 31%;
+  width: 84vw;
+  padding: 8px 40px 6vh;
   border: 2px solid rgb(0, 255, 8);
   border-radius: 10px;
-  /* color: white; */
-  background-image: 
-  repeating-linear-gradient(
-      0deg, 
-      rgba(59, 59, 59, 0.843) 1px, 
-      rgba(255, 255, 255, 0.1) 1px, 
-      transparent 1px, 
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(59, 59, 59, 0.843) 1px,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
       transparent 1px
-  ), 
-  linear-gradient(
-      rgba(38, 38, 38, 0.947), 
-      rgba(64, 64, 64, 0.82)
-  ), 
-  url('../assets/IMG/steel-texture.png');
-background-size: cover; /* Ajusta a imagem para cobrir todo o background */
-background-repeat: no-repeat; /* Evita a repetição da imagem */
-background-position: center; /* Centraliza a imagem */
+    ),
+    linear-gradient(rgba(38, 38, 38, 0.947), rgba(64, 64, 64, 0.82)),
+    url("../assets/IMG/steel-texture.png");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o background */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center; /* Centraliza a imagem */
 }
 
 .smallImage {
@@ -46,6 +40,7 @@ background-position: center; /* Centraliza a imagem */
 }
 
 .paragraph {
+  text-align: justify;
   margin-bottom: 20px;
 }
 
@@ -59,7 +54,7 @@ background-position: center; /* Centraliza a imagem */
 }
 
 .link:hover {
-  text-decoration:solid;
+  text-decoration: solid;
   color: rgba(92, 251, 92, 0.584);
 }
 
@@ -74,6 +69,40 @@ background-position: center; /* Centraliza a imagem */
 }
 
 .bottomImage {
-  width: 30px;
-  height: 30px;
+  padding: 8px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.378);
+  margin-top: 10px;
+  border: 1px solid green;
+  border-radius: 15%;
+}
+
+.secondContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionHabilits {
+  padding: 4vh 0 0 2vw;
+  gap: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHbilits {
+  text-align: justify;
+  height: fit-content;
+  width: 42vw;
+  padding: 2vh;
+  gap: 1vh;
+  background-color: rgba(0, 0, 0, 0.378);
+  margin-top: 10px;
+  border: 1px solid green;
+  border-radius: 15%;
+}
+
+.cardHbilits h3 {
+  margin-bottom: 15px;
 }

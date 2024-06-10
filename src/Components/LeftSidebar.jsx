@@ -15,16 +15,17 @@ export default function LeftSidebar() {
             </div>
             <h1 className={styles.title}>Marcos Paratella Júnior</h1>
             <p className={styles.text1}>Desenvolvedor FullStack</p>
-            <a href="https://github.com/DevParatella" className={`${styles.link} ${styles.linkGit}`} target="_blank" rel="noopener noreferrer">
-                <button className={`${styles.button} ${styles.buttonGit}`}>
-                    <FaGithub className={styles.icon} /> DevParatella
-                </button>
-            </a>
             <a href="https://www.linkedin.com/in/marcos-paratella-74b291239/" className={`${styles.link} ${styles.linkedin}`} target="_blank" rel="noopener noreferrer">
                 <button className={`${styles.button} ${styles.buttonEdin}`}>
                     <FaLinkedin className={styles.icon} /> Marcos Paratella
                 </button>
             </a>
+            <a href="https://github.com/DevParatella" className={`${styles.link} ${styles.linkGit}`} target="_blank" rel="noopener noreferrer">
+                <button className={`${styles.button} ${styles.buttonGit}`}>
+                    <FaGithub className={styles.icon} /> DevParatella
+                </button>
+            </a>
+
         </div>
     );
 }
