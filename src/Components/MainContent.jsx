@@ -14,8 +14,8 @@ export default function MainContent() {
         crescimento e aprimoramento constantes. Acredito que, mesmo aos 47 anos, é
         possível reinventar-se e buscar novos horizontes na carreira, especialmente em um
         campo tão dinâmico e inovador como a programação.</p>
-      <a href="#" className={styles.link}>Repositórios</a>
-      <a href="#" className={styles.link}>@UltimoProjeto</a>
+      <a href="https://github.com/devParatella?tab=repositories" target='aboutblanc' className={styles.link}>Repositórios</a>
+      <a href="https://github.com/devParatella/simplepage" target='aboutblanc' className={styles.link}>@Ultimo projeto</a>
       <hr className={styles.divider} />
       <h1 className={styles.bottomTitle}>Mais informações</h1>
       <div className={styles.secondContent}>
