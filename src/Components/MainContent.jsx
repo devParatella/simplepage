@@ -7,7 +7,7 @@ export default function MainContent() {
       <h1 className={styles.mainTitle}>Marcos Paratella</h1>
       <h2 className={styles.subtitle}>Programador FullStack</h2>
       <h1 className={styles.sectionTitle}>Sobre</h1>
-      <p className={styles.paragraph}>Estou avançando de forma sólida e contínua na área
+      <p className={styles.paragraph}>Estou avançando de maneira sólida e contínua na área
         de Análise e Desenvolvimento de Sistemas da Informação, com o objetivo de me tornar um
         programador Fullstack ou Backend, e talvez até um acima da média. A paixão por
         resolver problemas e criar soluções inovadoras é o motor que impulsiona meu
