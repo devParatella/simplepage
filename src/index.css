@@ -10,9 +10,9 @@
 .top-content {
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 200px;
-  height: 100px;
+  left: 47%;
+  width: 13vw;
+  height: 6vh;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   display: none;
@@ -46,8 +46,8 @@
 }
 
 .reactImage {
-  padding: 8px;
-  width: 80px;
-  height: 80px;
-  margin-top: 10px;
+  padding: 0;
+  width: 2vw;
+  height: 4vh;
+  margin-top: 0px;
 }
