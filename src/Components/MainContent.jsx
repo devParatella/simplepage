@@ -25,24 +25,22 @@ export default function MainContent() {
             <ul>
               <li>Ensino Médio Completo,</li>
               <li>Curso Técnico em Informática,</li>
-              <li>Curso Técnico em Eletricista,</li>
               <li>Curso de Programador FullStack em RPV, Senai</li>
             </ul>
           </div>
           <div className={styles.cardHbilits}>
             <h3>Atribuições no Emprego Atual (Bevile Hotel):</h3>
             <ul>
-              <li>Atendimento a Hóspedes,</li>
-              <li>Gerenciamento de Reservas,</li>
-              <li>Manutenção de Sistemas e Segurança da Informação,</li>
-              <li>Resolução de Problemas e Reclamações</li>
+              <li>Atendimento ao público</li>
+              <li>Gerenciamento de Reservas</li>
+              <li>Resolução de Problemas</li>
+              <li>Manutenção de Sistemas</li>
             </ul>
           </div>
           <div className={styles.cardHbilits}>
             <h3>Experiências Anteriores:</h3>
             <ul>
               <li>Técnico em Infraestrutura de TI (Atual)</li>
-              <li>Eletricista técnico Automotivo e de Refrigeração</li>
               <li>Assistente Administrativo(Singer do Brasil)</li>
             </ul>
           </div>
