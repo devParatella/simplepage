@@ -1,8 +1,8 @@
 import LeftSidebar from './Components/LeftSidebar.jsx';
 import MainContent from "./Components/MainContent.jsx";
 import reactImage from "./assets/IMG/react-logo.png";
-import './index.css';
 import { useState } from 'react';
+import './App.css';
 
 function App() {
   const [showTopContent, setShowTopContent] = useState(false);

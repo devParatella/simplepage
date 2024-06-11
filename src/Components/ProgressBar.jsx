@@ -19,7 +19,6 @@ export default function ProgressBar({ progress }) {
     );
 }
 
-// Defina os PropTypes
 ProgressBar.propTypes = {
     progress: PropTypes.number.isRequired,
 };

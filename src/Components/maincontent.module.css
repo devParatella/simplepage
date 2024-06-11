@@ -2,20 +2,27 @@
   margin-left: 31%;
   width: 84vw;
   padding: 8px 40px 6vh;
-  border: 2px solid rgb(0, 255, 8);
+  border: 2px solid var(--color-green);
   border-radius: 10px;
   background-image: repeating-linear-gradient(
       0deg,
-      rgba(59, 59, 59, 0.843) 1px,
-      rgba(255, 255, 255, 0.1) 1px,
+      var(--color-semi-transparent-grey) 1px,
+      var(--color-semi-transparent-white) 1px,
       transparent 1px,
       transparent 1px
     ),
-    linear-gradient(rgba(38, 38, 38, 0.947), rgba(64, 64, 64, 0.82)),
+    linear-gradient(var(--color-dark-grey-overlay), var(--color-medium-grey-overlay)),
     url("../assets/IMG/steel-texture.png");
-  background-size: cover; /* Ajusta a imagem para cobrir todo o background */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
-  background-position: center; /* Centraliza a imagem */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sectionHead {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  gap: 10px;
 }
 
 .smallImage {
@@ -23,15 +30,17 @@
   width: 80px;
   height: 80px;
   margin-top: 10px;
-  border: 1px solid green;
+  border: 1px solid var(--color-green);
   border-radius: 15%;
 }
 
 .mainTitle {
-  margin-top: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .subtitle {
+  font-size: 1.44em;
   margin-bottom: 20px;
 }
 
@@ -50,18 +59,18 @@
   margin: 10px 0;
   padding: 10px 0;
   text-decoration: none;
-  color: green;
+  color: var(--color-green);
 }
 
 .link:hover {
   text-decoration: solid;
-  color: rgba(92, 251, 92, 0.584);
+  color: var(--color-github-hover);
 }
 
 .divider {
   width: 90%;
   margin: 10px auto;
-  border: 1px solid white;
+  border: 1px solid var(--color-white);
 }
 
 .bottomTitle {
@@ -72,10 +81,9 @@
   padding: 8px;
   width: 80px;
   height: 80px;
+  background-color: var(--color-semi-transparent-black);
   margin-top: 10px;
-  background-color: rgba(0, 0, 0, 0.378);
-  margin-top: 10px;
-  border: 1px solid green;
+  border: 1px solid var(--color-green);
   border-radius: 15%;
 }
 
@@ -97,9 +105,9 @@
   width: 42vw;
   padding: 2vh;
   gap: 1vh;
-  background-color: rgba(0, 0, 0, 0.378);
+  background-color: var(--color-semi-transparent-black);
   margin-top: 10px;
-  border: 1px solid green;
+  border: 1px solid var(--color-green);
   border-radius: 15%;
 }
 
