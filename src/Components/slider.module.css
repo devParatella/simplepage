@@ -1,0 +1,11 @@
+.slider {
+    height: fit-content;
+    width: 42vw;
+  margin: 0 auto;
+}
+
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
