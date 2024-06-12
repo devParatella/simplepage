@@ -13,8 +13,10 @@ export default function MainContent() {
       </div>
       <h1 className={styles.sectionTitle}>Sobre</h1>
       <p className={styles.paragraph}>Estou avançando de forma sólida e contínua na área de Análise e Desenvolvimento de Sistemas da Informação, com o objetivo de me tornar um programador Fullstack ou Backend, e talvez até ultrapassar a média. A paixão por resolver problemas e criar soluções inovadoras é o motor que impulsiona meu crescimento e aprimoramento constantes. Acredito que, mesmo aos 47 anos, é possível reinventar-se e buscar novos horizontes na carreira, especialmente em um campo tão dinâmico e inovador como a programação.</p>
+      <div>
       <a href="https://github.com/devParatella?tab=repositories" target='_blank' className={styles.link}>Repositórios</a>
       <a href="https://github.com/devParatella/simplepage" target='_blank' className={styles.link}>@Último Projeto</a>
+      </div>
       <hr className={styles.divider} />
       <h1 className={styles.bottomTitle}>Mais Informações</h1>
       <div className={styles.secondContent}>

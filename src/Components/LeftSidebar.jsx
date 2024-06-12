@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import styles from './leftsidebar.module.css';
-import devParatella from '../assets/IMG/DevParatella.png';
+import devParatella from '../assets/IMG/DevParatellaNoBg.png';
 import ProgressBar from '../Components/ProgressBar.jsx';
 
 export default function LeftSidebar() {

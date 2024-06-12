@@ -6,11 +6,7 @@
   align-items: center;
   padding: 0px;
   gap: 3vh;
-  position: fixed;
-  top: 6vh;
-  left: 8vw;
   height: 95vh;
-  overflow-y: auto;
 }
 
 .topImage {
@@ -139,16 +135,24 @@
 
 @media (max-width: 480px) {
   .sidebar {
-    width: 75vw;
+    width: 100%;
   }
 
   .topImage {
-    width: 60vw;
+    width: 100%;
     height: auto;
   }
 
   .centerImage {
-    width: 24vw;
+    background: none;
+    position: absolute;
+    top: 17%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(
+      -50%,
+      -50%
+    ); /* Move o elemento para que o centro fique no ponto (50%, 50%) */
+    width: 44vw;
   }
 
   .title,
