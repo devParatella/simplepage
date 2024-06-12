@@ -91,7 +91,7 @@
 }
 
 .sectionHabilits {
-  padding: 4vh 0 0 2vw;
+  padding: 4vh 8vw 0 2vw;
   gap: 2vh;
   display: flex;
   flex-direction: column;
@@ -100,7 +100,7 @@
 .cardHbilits {
   text-align: justify;
   height: fit-content;
-  width: 42vw;
+  width: 40vw;
   padding: 2vh;
   gap: 1vh;
   background-color: var(--color-semi-transparent-black);
@@ -116,3 +116,5 @@
 .cardHbilits ul{
   margin-left: 2vw;
 }
+
+
